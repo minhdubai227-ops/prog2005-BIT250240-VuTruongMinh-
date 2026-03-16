@@ -1,0 +1,5 @@
+name = input("ten: ")
+name = name.strip()
+words = name.split()
+normalized = ' '.join([word.capitalize() for word in words])
+print(f"sau khi chuan hoa: {normalized}")
