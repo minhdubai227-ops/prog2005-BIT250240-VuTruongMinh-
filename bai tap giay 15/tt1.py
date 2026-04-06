@@ -1,0 +1,6 @@
+x = int(input("nhap so: "))
+y = int(input("nhap so: "))
+print("tong",x+y)
+print("hieu",x-y)
+print("tich",x*y)
+print("thuong",x/y)
